@@ -8,11 +8,11 @@ var Time = Date.getHours() + ":" + Date.getMinutes();
 
 //Checking date. If date equals corresponding date then output text for that date. If not check times. 
 function CheckDate(){
-  if (CurrentDate.includes("05/12/")){
+  if (CurrentDate.includes("05/26/")){
     var AnniversaryText = ["Hey baby", "Happy Anniversary!", "I love you so very much", "I'm so glad were together and we plan to live out our lives together.", "\u2661"];
     OutputText(AnniversaryText);
   }
-  else if(CurrentDate.includes("06/26")){
+  else if(CurrentDate.includes("06/02")){
     var BirthdayText = ["Hey Darling", "Happy Birthday", "I'm so glad I can be your boyfriend and your mines.","I hopes you have a great day" ,"I love you so very much", "Mwah", "\u2661"];
     OutputText(BirthdayText);
   }

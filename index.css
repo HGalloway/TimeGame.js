@@ -1,0 +1,36 @@
+html {
+    background-color: white;
+}
+Header{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 0;
+    top: 0;
+}
+#Navigation {
+    text-align: center;
+}
+Body{
+    border-spacing: 0px;
+    position: relative;
+    text-align: center;
+}
+Footer {
+    padding-top: 10px;
+    text-align: center;
+}
+button{
+    border-radius: 8px;
+    border: 10px;
+    background-color: #ffecef;
+}
+button:hover {
+    background-color: #ff7c7c;
+}
+hr {
+    border: 1px solid black;
+}
+.SubBreak {
+    border: 0.2px solid gray;
+}
